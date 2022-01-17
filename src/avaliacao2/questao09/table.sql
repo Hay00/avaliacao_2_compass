@@ -7,6 +7,6 @@ CREATE TABLE produtos (
     nome VARCHAR(255),
     descricao VARCHAR(255),
     desconto NUMERIC(9, 2),
-    data DATE,
+    dataInicio DATE,
     PRIMARY KEY (id)
 );
